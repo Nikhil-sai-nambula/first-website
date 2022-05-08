@@ -24,13 +24,15 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 .intro{
-  width:30px;
+  width:80%;
   margin: auto;
+    margin-left: auto;
 }
 .skill-row{
-  width: 50%;
+  width:40%;
   margin:100px auto;
   text-align: left;
+  line-height: 2;
 }
 .topcontainer{
   background-color: #E4F9F5;
@@ -38,12 +40,18 @@ h3{
   padding-top: 100px;
 }
 .middle-container{
-  margin: 100px 0;
+  margin: 100px 0 100px 0;
 }
 .bottom-container{
  margin: 100px 0;
  background-color: #66BFBF;
  padding: 50px 0 20px;
+}
+.bgmi-message{
+  width: 45%;
+  margin: auto;
+  margin-left: auto;
+  padding:0 0 20px 0;
 }
 .pro{
   text-decoration: underline;
@@ -60,7 +68,7 @@ h3{
 }
 .computer{
   float: left;
-  width: auto;
+  width: 25%;
   margin-right:30px;
 }
 a{
@@ -76,21 +84,23 @@ a:hover{
   padding: 20px 0px;
 }
 .bgmi{
+  width: 25%;
   float: right;
-  width: auto;
-  margin-left: 100px;
+  /* width: auto; */
+  margin-left: 30px;
 }
 hr{
-  border:dotted #EAF6F6;
+  border:dotted light grey;
   border-bottom: none;
   width: 4%
 }
+.contact-me{
+  padding: 30px 0 0 0;
+}
 p{
   line-height: 2;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Merriweather' serif;
 
-  /* font-weight:600; */
 }
 .btn {
   background: #11cdd4;
